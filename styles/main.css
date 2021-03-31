@@ -108,6 +108,8 @@ article h2{
   background-position: center;
   background-size: cover;
   text-align: center;
+
+  text-shadow: 0 0 0 #FCFCFC, -1px -1px 0 #FCFCFC, 1px -1px 0 #FCFCFC, -1px 1px 0 #FCFCFC, 1px 1px 0 #FCFCFC
 }
 article h2.fun-for-family{
   background-image: url('../images/family-fun-george-arthur-pflueger.jpg');
@@ -256,4 +258,17 @@ to   { opacity: 1; }
 @-o-keyframes fadein {
 from { opacity: 0; }
 to   { opacity: 1; }
+}
+
+
+.emphasise{
+  border-color: #27AE60;
+  border-left-width: 5px;
+  box-shadow: #27AE60 1px 0 5px;
+  padding: 1em;
+}
+.emphasise h2{
+  margin: 0;
+  border-left: none;
+  text-align: center;
 }
